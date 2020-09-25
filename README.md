@@ -36,3 +36,13 @@ K8s 架構圖
                 * Event Listner: by Scheduler.
                 
 
+
+K8s Process
+
+(1) Event Listener listen status of Node, and log it.
+
+(2) Call API to call relative method for the resorce to Pod depends on (1).
+
+(3) Using get/list method to have result of Pod, and to do relative task to Pod Instance.
+
+
