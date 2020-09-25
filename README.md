@@ -41,9 +41,9 @@ K8s Process
 
     (1) Event Listener listens status of Node, and log it.
 
-    (2) Call API to call relative method for the resorce to Pod depends on (1).
+    (2) API call relative method for the resorce to Pod depends on (1).
 
-    (3) Using get/list method to have result of Pod, and to do relative task to Pod Instance.
+    (3) Node using get/list method to have result of Pod from API, and to do relative task to Pod Instance.
 
 
 
