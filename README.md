@@ -16,7 +16,7 @@ K8s 架構圖
                            |           |
                            |           |
                            |           
-                           |       Resorces Controll
+                           |       Resorces Controll (cotains Node Controller)
                            |
                            |
                            
@@ -26,7 +26,8 @@ K8s 架構圖
                     
                 * etcd: to save status of node
                 
-                * code API Server: the core of K8s
+                * code API Server: the core of K8s, it has many modules that provide services, and
+                                   every module has its own memory to save status.
                 
                 * Kuberlet: a software that install in node, communicating with core API Server.
                 
@@ -34,3 +35,4 @@ K8s 架構圖
                 
                 * Event Listner: by Scheduler.
                 
+
